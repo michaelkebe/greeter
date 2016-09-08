@@ -1,0 +1,19 @@
+{
+  "name": "greeter",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelkebe/greeter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michaelkebe/greeter/issues"
+  },
+  "homepage": "https://github.com/michaelkebe/greeter#readme"
+}
