@@ -6,7 +6,8 @@ before_script:
   - npm install -g jasmine
 
 script:
-  - jasmine
+  - echo "to stdout"
+  - echo "to stderr" >&2
 
 notifications:
   webhooks:
