@@ -1,7 +1,7 @@
 exports.Greeter = function() {
   return {
-    greet: function() {
-      return "Hello!";
+    greet: function(name) {
+      return "Hello" + (name ? " " + name : "") + "!";
     }
   }
 };

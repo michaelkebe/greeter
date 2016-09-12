@@ -7,4 +7,9 @@ describe("greeter", function() {
     expect(greeter.greet()).toBe("Hello!");
   });
 
+  it("can greet", function() {
+    var greeter = new Greeter();
+    expect(greeter.greet("Jim")).toBe("Hello Jim!");
+  });
+
 });
